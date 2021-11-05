@@ -1,6 +1,9 @@
 <!-- ❗️ .vueファイルの中で、<template>タグは、1つの子しか持てません。❗️ -->
 <template>
-  <div class="counter">{{ count }}</div>
+  <div class="counter">
+    {{ count }}
+    <div>aaa</div>
+  </div>
 </template>
 
 <script>
